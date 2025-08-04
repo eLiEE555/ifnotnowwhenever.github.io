@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "EBGaramond";
+    src: url(EBGaramond12-Italic.ttf);
+}
+
+@font-face {
+    font-family: "SIMSUN";
+    src: url(SIMSUN.ttf);
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+    background-image: url(img/likjhgf.jpg);
+    min-height: 700px;
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.title1 {
+    position: absolute;
+    top: 320px;
+    left: 30px;
+}
+
+.p2 {
+    font-family: "SIMSUN";
+    position: absolute;
+    top: 355px;
+    left: 30px;
+}
+
+.video1 {
+    position: absolute;
+    top: 10px;
+    left: -8px;
+    width: 400px;
+    height: 180px;
+}
+
+.image1 {
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    width: 170px;
+    height: 80px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
