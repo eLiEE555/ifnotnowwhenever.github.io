@@ -1,0 +1,16 @@
+{
+  "name": "site_project",
+  "version": "1.0.0",
+  "description": "if not now, whenever",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "author": "ELIE",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
